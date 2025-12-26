@@ -62,7 +62,9 @@ The Olympic Games have a rich history and are one of the most celebrated sportin
 
 ### Setup Instructions:
 ```bash
-pip install streamlit pandas plotly seaborn
+git remote add origin https://github.com/rajsinghv1/olympic-data-analysis.git
+cd olympics-data-analysis
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
@@ -91,18 +93,19 @@ streamlit run app.py
 ## 📁 Project Structure
 
 ```
-olympics/
+olympics-data-analysis/
 │
-├── __pycache__/
-├── .gitignore
-├── app.py
-├── athlete_events.csv
-├── helper.py
-├── noc_regions.csv
-├── olympics.ipynb
-├── preprocessor.py
-├── README.md
-└── requirements.txt
+├── __pycache__/            
+├── .gitignore              
+├── README.md               
+├── app.py                  
+├── athlete_events.csv      
+├── helper.py               
+├── noc_regions.csv         
+├── olympics.ipynb          
+├── preprocessor.py         
+└── requirements.txt        
+
 ```
 
 ---
