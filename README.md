@@ -60,7 +60,7 @@ The Olympic Games have a rich history and are one of the most celebrated sportin
 - Dynamic tables and plots
 - Instant exploration of Olympic data
 
-### Setup Instructions:
+### ⚙️ Installation & Usage:
 ```bash
 git remote add origin https://github.com/rajsinghv1/olympic-data-analysis.git
 cd olympics-data-analysis
@@ -113,3 +113,4 @@ olympics-data-analysis/
 ## 🙌 Acknowledgements
 
 This project uses open datasets from [Kaggle Olympic History Data](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) and is inspired by various public analysis and visualization notebooks.
+
